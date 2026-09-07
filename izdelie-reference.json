@@ -12,11 +12,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -31,11 +31,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": true
+        "insert": false,
+        "note": true
       }
     },
     {
@@ -50,11 +50,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": false,
+        "profileType": true,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -69,11 +69,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -88,11 +88,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": true
+        "insert": false,
+        "note": true
       }
     },
     {
@@ -107,11 +107,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": true,
+        "profileType": false,
+        "parameter": true,
         "variant": true,
-        "vstavka": true,
-        "primechanie": false
+        "insert": true,
+        "note": false
       }
     },
     {
@@ -126,11 +126,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": true,
+        "profileType": false,
+        "parameter": true,
         "variant": true,
-        "vstavka": true,
-        "primechanie": false
+        "insert": true,
+        "note": false
       }
     },
     {
@@ -145,11 +145,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -164,11 +164,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -183,11 +183,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -202,11 +202,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": true,
+        "profileType": false,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -221,11 +221,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": true,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -240,11 +240,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": true,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -259,11 +259,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -278,11 +278,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -297,11 +297,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -316,11 +316,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -335,11 +335,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": false,
+        "profileType": true,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -354,11 +354,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": true,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -373,11 +373,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -392,11 +392,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": false,
+        "profileType": true,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -411,11 +411,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -430,11 +430,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -449,11 +449,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -468,11 +468,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": false,
+        "profileType": true,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -487,11 +487,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -506,11 +506,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -525,11 +525,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -544,11 +544,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -563,11 +563,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -582,11 +582,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": true,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -601,11 +601,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -620,11 +620,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -639,11 +639,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": true,
+        "profileType": false,
+        "parameter": true,
         "variant": true,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -658,11 +658,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": true,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -677,11 +677,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -696,11 +696,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": true,
+        "profileType": false,
+        "parameter": true,
         "variant": true,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -715,11 +715,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": true,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -734,11 +734,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": true,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -753,11 +753,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -772,11 +772,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -791,11 +791,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": true,
-        "vstavka": true,
-        "primechanie": false
+        "insert": true,
+        "note": false
       }
     },
     {
@@ -810,11 +810,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": false,
+        "profileType": true,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -829,11 +829,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": true,
-        "primechanie": false
+        "insert": true,
+        "note": false
       }
     },
     {
@@ -848,11 +848,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": true,
-        "primechanie": false
+        "insert": true,
+        "note": false
       }
     },
     {
@@ -867,11 +867,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -886,11 +886,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": true,
-        "vstavka": true,
-        "primechanie": false
+        "insert": true,
+        "note": false
       }
     },
     {
@@ -905,11 +905,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": true,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -924,11 +924,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": true,
-        "primechanie": false
+        "insert": true,
+        "note": false
       }
     },
     {
@@ -943,11 +943,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": true,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -962,11 +962,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": true,
-        "vstavka": true,
-        "primechanie": false
+        "insert": true,
+        "note": false
       }
     },
     {
@@ -981,11 +981,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -1000,11 +1000,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": true,
-        "primechanie": false
+        "insert": true,
+        "note": false
       }
     },
     {
@@ -1019,11 +1019,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": true,
-        "vstavka": true,
-        "primechanie": false
+        "insert": true,
+        "note": false
       }
     },
     {
@@ -1038,11 +1038,11 @@
         "widthNotNeeded": true
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -1057,11 +1057,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": true,
-        "primechanie": false
+        "insert": true,
+        "note": false
       }
     },
     {
@@ -1076,11 +1076,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": false,
-        "parametr": false,
+        "profileType": false,
+        "parameter": false,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     },
     {
@@ -1095,11 +1095,11 @@
         "widthNotNeeded": false
       },
       "requires": {
-        "tipProfilya": true,
-        "parametr": true,
+        "profileType": true,
+        "parameter": true,
         "variant": false,
-        "vstavka": false,
-        "primechanie": false
+        "insert": false,
+        "note": false
       }
     }
   ],
