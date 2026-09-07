@@ -1,0 +1,40 @@
+{
+  "contact": {
+    "name": "Иванов Иван Иванович",
+    "email": "ivanov@example.com"
+  },
+  "orderName": "Кухня, ул. Ленина 12",
+  "description": "Гарнитур для кухни, замер от 03.09.2026",
+  "items": [
+    {
+      "izdelie": "Фасад GLIX",
+      "tipProfilya": "V",
+      "parametr": "H2",
+      "variant": "S",
+      "vstavka": "Оптивайт",
+      "obrabotkaVstavki": [],
+      "standart": "Да",
+      "sborka": "Нет",
+      "cvet": "RAL",
+      "dlina": 2400,
+      "shirina": 600,
+      "kolichestvo": 2,
+      "primechanie": null
+    },
+    {
+      "izdelie": "Профиль VIX",
+      "tipProfilya": null,
+      "parametr": null,
+      "variant": null,
+      "vstavka": null,
+      "obrabotkaVstavki": [],
+      "standart": "Да",
+      "sborka": "Нет",
+      "cvet": "A",
+      "dlina": 3000,
+      "shirina": 0,
+      "kolichestvo": 4,
+      "primechanie": null
+    }
+  ]
+}
