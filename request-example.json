@@ -1,6 +1,7 @@
 {
   "contact": {
-    "name": "Иванов Иван Иванович",
+    "firstName": "Иван",
+    "lastName": "Иванов",
     "email": "ivanov@example.com"
   },
   "items": [

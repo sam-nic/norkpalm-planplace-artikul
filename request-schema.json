@@ -10,12 +10,16 @@
     "contact": {
       "type": "object",
       "description": "Контактное лицо, разместившее заказ.",
-      "required": ["name", "email"],
+      "required": ["firstName", "lastName", "email"],
       "additionalProperties": false,
       "properties": {
-        "name": {
+        "firstName": {
           "type": "string",
-          "description": "ФИО контактного лица."
+          "description": "Имя контактного лица."
+        },
+        "lastName": {
+          "type": "string",
+          "description": "Фамилия контактного лица."
         },
         "email": {
           "type": "string",
