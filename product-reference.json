@@ -1,5 +1,5 @@
 {
-  "izdelieDirectory": [
+  "productDirectory": [
     {
       "name": "Брючница",
       "profile": {
@@ -1103,7 +1103,7 @@
       }
     }
   ],
-  "tipProfilyaDirectory": [
+  "profileTypeDirectory": [
     {
       "name": "100",
       "code": "100",
@@ -1436,7 +1436,7 @@
       ]
     }
   ],
-  "parametrDirectory": [
+  "parameterDirectory": [
     {
       "name": "0 пет.",
       "code": "H0",
@@ -2213,7 +2213,7 @@
       ]
     }
   ],
-  "cvetDirectory": [
+  "colorDirectory": [
     {
       "name": "Анодированное Золото",
       "code": "AG"
@@ -2347,7 +2347,7 @@
       "code": "RAL"
     }
   ],
-  "vstavkaDirectory": [
+  "insertDirectory": [
     {
       "name": "Артиста"
     },
@@ -2412,7 +2412,7 @@
       "name": "Шелби серое"
     }
   ],
-  "obrabotkaVstavkiDirectory": [
+  "insertTreatmentDirectory": [
     {
       "name": "Еврокромка",
       "code": "EK"

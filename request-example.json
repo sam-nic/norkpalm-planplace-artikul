@@ -3,8 +3,6 @@
     "name": "Иванов Иван Иванович",
     "email": "ivanov@example.com"
   },
-  "orderName": "Кухня, ул. Ленина 12",
-  "description": "Гарнитур для кухни, замер от 03.09.2026",
   "items": [
     {
       "product": "Фасад GLIX",

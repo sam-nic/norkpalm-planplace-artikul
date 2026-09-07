@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://misterfix.net/schemas/norkpalm-product-line.json",
+  "title": "Norkpalm — строка заказа (аналитика «Изделия»)",
+  "description": "Формат ОДНОЙ строки/позиции заказа внутри items[] вебхука (см. webhook-schema.json). Планфикс независимо собирает Артикул из этих же полей по своей формуле (см. ARTICLE-GUIDE.md) и сверяет с артикулом, который прислал PlanPlace — по этому совпадению и проверяется, что данные дошли корректно. Все справочные значения задаются точным названием записи справочника (как оно выглядит в product-reference.json → *.name), а не кодом и не внутренним id Планфикса. Поле 'paint' (окраска) в этой схеме НАМЕРЕННО ОТСУТСТВУЕТ — оно всегда решается на нашей стороне после передачи заказа, PlanPlace его не передаёт и не должен на него влиять.",
+  "type": "object",
+  "required": ["product", "standard", "assembly", "color", "length", "quantity"],
+  "additionalProperties": false,
+  "properties": {
+    "product": {
+      "type": "string",
+      "description": "Точное название изделия — строка должна совпадать 1-в-1 с одной из записей в product-reference.json → productDirectory[].name. Это ключевое поле: от него зависит, какие из полей ниже обязательны (см. productDirectory[].requires), и какой код профиля/тип изделия используются в артикуле.",
+      "examples": ["Фасад GLIX", "Полка LUMIX", "Профиль ESTET"]
+    },
+    "profileType": {
+      "type": ["string", "null"],
+      "description": "Название записи из справочника «Тип профиля» (product-reference.json → profileTypeDirectory[].name) — не код. Обязательно (не null), если для выбранного product в requires.profileType = true; иначе должно быть null — если изделие поле не запрашивает, а оно всё равно передано, это тоже ошибка (расхождение с формулой). Значение обязано входить в applicableProducts выбранного product — иначе Планфикс расценит это как «относится к другому изделию».",
+      "examples": ["Левый", "Правый", "Вертикальный", null]
+    },
+    "parameter": {
+      "type": ["string", "null"],
+      "description": "Название записи из справочника «Параметр» (parameterDirectory[].name) — не код. Правила ровно те же, что и у profileType — обязателен по requires.parameter, значение должно быть в applicableProducts для product.",
+      "examples": ["2 пет.", "0 пет.", null]
+    },
+    "variant": {
+      "type": ["string", "null"],
+      "description": "Название записи из справочника «Вариант» (variantDirectory[].name) — не код. Обязателен по requires.variant, КРОМЕ спецкейса: если product.profile.name содержит подстроку GLIX и parameter = '0 пет.' — variant не обязателен, даже когда requires.variant = true (см. specialCases в product-reference.json).",
+      "examples": ["Стандартная", "Угловая", "Глубокая", null]
+    },
+    "insert": {
+      "type": ["string", "null"],
+      "description": "Точное название записи из справочника «Материалы вставок» (insertDirectory[].name — у этого справочника нет отдельного кода, всегда передаётся название). Обязательно, если requires.insert = true.",
+      "examples": ["Оптивайт", "Стопсол Грей", null]
+    },
+    "insertTreatment": {
+      "type": "array",
+      "description": "Необязательное множество — названия записей из справочника «Обработка вставки» (insertTreatmentDirectory[].name). Не участвует в формуле артикула, не проверяется на обязательность в зависимости от изделия. Можно передавать пустой массив.",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "standard": {
+      "type": "string",
+      "enum": ["Да", "Нет"],
+      "description": "Всегда обязательно. Если 'Нет' (нестандартное изделие) — 'note' тоже становится обязательным (заполните, что именно нестандартно)."
+    },
+    "assembly": {
+      "type": "string",
+      "enum": ["Да", "Нет"],
+      "description": "Всегда обязательно. Может быть 'Да' только если productDirectory[].prodType.assemblyPossible = true для выбранного изделия."
+    },
+    "color": {
+      "type": "string",
+      "description": "Код записи из справочника «Цвет» (colorDirectory[].code) — у Цвета, в отличие от остальных справочников выше, именно код является рабочим коротким идентификатором и совпадает с тем, что попадает в артикул. Всегда обязательно, участвует в артикуле безусловно (не гейтится изделием).",
+      "examples": ["RAL", "A", "W", "B"]
+    },
+    "length": {
+      "type": "number",
+      "description": "Длина, мм. Всегда обязательно. Дробные значения допустимы (Планфикс форматирует их с запятой в артикуле, не округляет)."
+    },
+    "width": {
+      "type": ["number", "null"],
+      "description": "Ширина, мм. Обязательно указать 0 (не null), если productDirectory[].prodType.widthNotNeeded = true для выбранного изделия. Во всех остальных случаях — обязательное положительное число (может быть null только пока это временно не выяснено — но для передачи в заказ должно быть заполнено)."
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Количество, шт. Всегда обязательно, целое положительное число."
+    },
+    "note": {
+      "type": ["string", "null"],
+      "description": "Свободный текст. Обязательно (не null/не пусто), если productDirectory[].requires.note = true ИЛИ standard = 'Нет'."
+    }
+  }
+}

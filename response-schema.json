@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://misterfix.net/schemas/norkpalm-order-response.json",
+  "title": "Norkpalm — заказ (вебхук от PlanPlace → Планфикс, ответ)",
+  "description": "Формат ответа, который Планфикс возвращает синхронно на вебхук из request-schema.json. Первый черновик — состав полей на обсуждении, но принцип не изменится: статус обработки, id созданного объекта, опциональная ссылка на заказ в ЛК дилера.",
+  "type": "object",
+  "required": ["status"],
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": ["ok", "error"],
+      "description": "Результат обработки вебхука."
+    },
+    "taskId": {
+      "type": ["integer", "null"],
+      "description": "Id созданного в Планфиксе объекта заказа. Обязателен (не null), если status = 'ok'."
+    },
+    "dealerCabinetUrl": {
+      "type": ["string", "null"],
+      "description": "Необязательная прямая ссылка на этот заказ в личном кабинете дилера. Может отсутствовать (null), даже при status = 'ok'."
+    },
+    "error": {
+      "type": ["object", "null"],
+      "description": "Заполняется только при status = 'error'. Точный формат — открытый вопрос, обсуждается отдельно.",
+      "properties": {
+        "message": { "type": "string" }
+      }
+    }
+  }
+}
