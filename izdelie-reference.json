@@ -1,0 +1,2439 @@
+{
+  "izdelieDirectory": [
+    {
+      "name": "Брючница",
+      "profile": {
+        "name": "Неприменимо",
+        "code": "X"
+      },
+      "prodType": {
+        "name": "Брючница",
+        "assemblyPossible": false,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Давальческий Профиль",
+      "profile": {
+        "name": "Давальческий",
+        "code": "DP"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": true
+      }
+    },
+    {
+      "name": "Кронштейн",
+      "profile": {
+        "name": "Неприменимо",
+        "code": "X"
+      },
+      "prodType": {
+        "name": "Кронштейн",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "ЛДСП",
+      "profile": {
+        "name": "Неприменимо",
+        "code": "X"
+      },
+      "prodType": {
+        "name": "ЛДСП",
+        "assemblyPossible": true,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Нестандартное изделие",
+      "profile": {
+        "name": "Неприменимо",
+        "code": "X"
+      },
+      "prodType": {
+        "name": "Нестандартное",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": true
+      }
+    },
+    {
+      "name": "Полка LUMIX",
+      "profile": {
+        "name": "LUMIX",
+        "code": "LM"
+      },
+      "prodType": {
+        "name": "Полка",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": true,
+        "variant": true,
+        "vstavka": true,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Полка SHELF",
+      "profile": {
+        "name": "SHELF",
+        "code": "SF"
+      },
+      "prodType": {
+        "name": "Полка",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": true,
+        "variant": true,
+        "vstavka": true,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль Ограничитель",
+      "profile": {
+        "name": "Ограничитель",
+        "code": "PO"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль ELEGANT",
+      "profile": {
+        "name": "ELEGANT",
+        "code": "EL"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль ESTET",
+      "profile": {
+        "name": "ESTET",
+        "code": "ES"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль FRAME",
+      "profile": {
+        "name": "FRAME",
+        "code": "FR"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль GLIX",
+      "profile": {
+        "name": "GLIX",
+        "code": "GL"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": true,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль GLIX WOOD",
+      "profile": {
+        "name": "GLIX WOOD",
+        "code": "GW"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": true,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль JAZZ",
+      "profile": {
+        "name": "JAZZ",
+        "code": "JZ"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль JAZZ WOOD",
+      "profile": {
+        "name": "JAZZ WOOD",
+        "code": "JW"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль LACONIC",
+      "profile": {
+        "name": "LACONIC",
+        "code": "LC"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль LUMIX",
+      "profile": {
+        "name": "LUMIX",
+        "code": "LM"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль MIXBOX",
+      "profile": {
+        "name": "MIXBOX",
+        "code": "MB"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль PERFECTA",
+      "profile": {
+        "name": "PERFECTA",
+        "code": "PR"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": true,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль SECRET",
+      "profile": {
+        "name": "SECRET",
+        "code": "SE"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль SHELF",
+      "profile": {
+        "name": "SHELF",
+        "code": "SF"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль SHINE",
+      "profile": {
+        "name": "SHINE",
+        "code": "SH"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль STRIP",
+      "profile": {
+        "name": "STRIP",
+        "code": "STRIP"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль TETRIX",
+      "profile": {
+        "name": "TETRIX",
+        "code": "TR"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль TETRIX WALL",
+      "profile": {
+        "name": "TETRIX WALL",
+        "code": "TW"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль VIX",
+      "profile": {
+        "name": "VIX",
+        "code": "VIX"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль-держатель для обуви",
+      "profile": {
+        "name": "Держатель",
+        "code": "PP"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Профиль-ручка JAZZ",
+      "profile": {
+        "name": "JAZZ",
+        "code": "JZ"
+      },
+      "prodType": {
+        "name": "Профиль-ручка",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Рамка ELEGANT",
+      "profile": {
+        "name": "ELEGANT",
+        "code": "EL"
+      },
+      "prodType": {
+        "name": "Рамка",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Рамка ESTET",
+      "profile": {
+        "name": "ESTET",
+        "code": "ES"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Рамка GLIX",
+      "profile": {
+        "name": "GLIX",
+        "code": "GL"
+      },
+      "prodType": {
+        "name": "Рамка",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": true,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Рамка JAZZ",
+      "profile": {
+        "name": "JAZZ",
+        "code": "JZ"
+      },
+      "prodType": {
+        "name": "Рамка",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Рамка LACONIC",
+      "profile": {
+        "name": "LACONIC",
+        "code": "LC"
+      },
+      "prodType": {
+        "name": "Рамка",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Рамка LUMIX",
+      "profile": {
+        "name": "LUMIX",
+        "code": "LM"
+      },
+      "prodType": {
+        "name": "Рамка",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": true,
+        "variant": true,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Рамка PERFECTA",
+      "profile": {
+        "name": "PERFECTA",
+        "code": "PR"
+      },
+      "prodType": {
+        "name": "Рамка",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": true,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Рамка SECRET",
+      "profile": {
+        "name": "SECRET",
+        "code": "SE"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Рамка SHELF",
+      "profile": {
+        "name": "SHELF",
+        "code": "SF"
+      },
+      "prodType": {
+        "name": "Рамка",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": true,
+        "variant": true,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Рамка SHINE",
+      "profile": {
+        "name": "SHINE",
+        "code": "SH"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": true,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Рамка TETRIX",
+      "profile": {
+        "name": "TETRIX",
+        "code": "TR"
+      },
+      "prodType": {
+        "name": "Рамка",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": true,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Ручка PERFECTA",
+      "profile": {
+        "name": "PERFECTA",
+        "code": "PR"
+      },
+      "prodType": {
+        "name": "Ручка",
+        "assemblyPossible": false,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Ручка SHINE L=120мм",
+      "profile": {
+        "name": "SHINE",
+        "code": "SH"
+      },
+      "prodType": {
+        "name": "Профиль",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Стойка TETRIX",
+      "profile": {
+        "name": "TETRIX",
+        "code": "TR"
+      },
+      "prodType": {
+        "name": "Стойка",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": true,
+        "vstavka": true,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Стойка TETRIX WALL",
+      "profile": {
+        "name": "TETRIX WALL",
+        "code": "TW"
+      },
+      "prodType": {
+        "name": "Стойка",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Фасад ELEGANT",
+      "profile": {
+        "name": "ELEGANT",
+        "code": "EL"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": true,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Фасад ESTET",
+      "profile": {
+        "name": "ESTET",
+        "code": "ES"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": true,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Фасад FRAME",
+      "profile": {
+        "name": "FRAME",
+        "code": "FR"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Фасад GLIX",
+      "profile": {
+        "name": "GLIX",
+        "code": "GL"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": true,
+        "vstavka": true,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Фасад GLIX WOOD",
+      "profile": {
+        "name": "GLIX WOOD",
+        "code": "GW"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": true,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Фасад JAZZ",
+      "profile": {
+        "name": "JAZZ",
+        "code": "JZ"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": true,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Фасад LACONIC",
+      "profile": {
+        "name": "LACONIC",
+        "code": "LC"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": true,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Фасад PERFECTA",
+      "profile": {
+        "name": "PERFECTA",
+        "code": "PR"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": true,
+        "vstavka": true,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Фасад SCHUCO",
+      "profile": {
+        "name": "SCHUCO",
+        "code": "SC"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Фасад SECRET",
+      "profile": {
+        "name": "SECRET",
+        "code": "SE"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": true,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Фасад SHINE",
+      "profile": {
+        "name": "SHINE",
+        "code": "SH"
+      },
+      "prodType": {
+        "name": "Фасад",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": true,
+        "vstavka": true,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Фурнитура",
+      "profile": {
+        "name": "Неприменимо",
+        "code": "X"
+      },
+      "prodType": {
+        "name": "Фурнитура",
+        "assemblyPossible": false,
+        "widthNotNeeded": true
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Ящик со стеклом MIXBOX",
+      "profile": {
+        "name": "MIXBOX",
+        "code": "MB"
+      },
+      "prodType": {
+        "name": "Ящик со стеклом",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": true,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Ящик ALUMOVE",
+      "profile": {
+        "name": "ALUMOVE",
+        "code": "AL"
+      },
+      "prodType": {
+        "name": "Ящик",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": false,
+        "parametr": false,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    },
+    {
+      "name": "Ящик MIXBOX",
+      "profile": {
+        "name": "MIXBOX",
+        "code": "MB"
+      },
+      "prodType": {
+        "name": "Ящик",
+        "assemblyPossible": true,
+        "widthNotNeeded": false
+      },
+      "requires": {
+        "tipProfilya": true,
+        "parametr": true,
+        "variant": false,
+        "vstavka": false,
+        "primechanie": false
+      }
+    }
+  ],
+  "tipProfilyaDirectory": [
+    {
+      "name": "100",
+      "code": "100",
+      "articleArea": 3,
+      "applicableProducts": [
+        "Профиль MIXBOX",
+        "Ящик со стеклом MIXBOX",
+        "Ящик MIXBOX"
+      ]
+    },
+    {
+      "name": "200",
+      "code": "200",
+      "articleArea": 3,
+      "applicableProducts": [
+        "Профиль MIXBOX",
+        "Ящик со стеклом MIXBOX",
+        "Ящик MIXBOX"
+      ]
+    },
+    {
+      "name": "45",
+      "code": "45",
+      "articleArea": 3,
+      "applicableProducts": [
+        "Профиль MIXBOX",
+        "Ящик со стеклом MIXBOX",
+        "Ящик MIXBOX"
+      ]
+    },
+    {
+      "name": "Вертикальный",
+      "code": "V",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль ELEGANT",
+        "Профиль ESTET",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль SECRET",
+        "Профиль SHINE",
+        "Профиль TETRIX WALL"
+      ]
+    },
+    {
+      "name": "Вертикальный под петли",
+      "code": "VP",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль GLIX",
+        "Профиль GLIX WOOD"
+      ]
+    },
+    {
+      "name": "Вертикальный-ручка",
+      "code": "VR",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль GLIX",
+        "Профиль GLIX WOOD"
+      ]
+    },
+    {
+      "name": "Высокий",
+      "code": "A",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль LACONIC"
+      ]
+    },
+    {
+      "name": "Высокий - [A] b [C] d (слева и справа)",
+      "code": "AC",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка LACONIC",
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "Высокий - [A] b c d (слева)",
+      "code": "As",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка LACONIC",
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "Высокий - a [B] c [D] (сверху и снизу)",
+      "code": "BD",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка LACONIC",
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "Высокий - a [B] c d (сверху)",
+      "code": "sB",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка LACONIC",
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "Высокий - a b [C] d (справа)",
+      "code": "sC",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка LACONIC",
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "Высокий - a b c [D] (снизу)",
+      "code": "sD",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка LACONIC",
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "Горизонтальный",
+      "code": "H",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль ELEGANT",
+        "Профиль ESTET",
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль SECRET",
+        "Профиль SHINE",
+        "Профиль TETRIX",
+        "Профиль TETRIX WALL"
+      ]
+    },
+    {
+      "name": "Другой",
+      "code": "Dr",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Кронштейн",
+        "Профиль ELEGANT",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль PERFECTA",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Стойка TETRIX WALL",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад PERFECTA",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "Задний",
+      "code": "B",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль SHELF",
+        "Профиль TETRIX"
+      ]
+    },
+    {
+      "name": "Левый",
+      "code": "L",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Кронштейн",
+        "Профиль ELEGANT",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Стойка TETRIX WALL",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад PERFECTA",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "Левый/Правый",
+      "code": "LR",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль SHELF"
+      ]
+    },
+    {
+      "name": "Нет",
+      "code": "",
+      "articleArea": 1,
+      "applicableProducts": []
+    },
+    {
+      "name": "Передний",
+      "code": "F",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль SHELF",
+        "Профиль TETRIX"
+      ]
+    },
+    {
+      "name": "Передний/Задний",
+      "code": "FB",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль SHELF"
+      ]
+    },
+    {
+      "name": "Перемычка",
+      "code": "P",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль TETRIX"
+      ]
+    },
+    {
+      "name": "Правый",
+      "code": "R",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Кронштейн",
+        "Профиль ELEGANT",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль LACONIC",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Стойка TETRIX WALL",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад PERFECTA",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "Профиль для кронштейнов",
+      "code": "K",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль TETRIX WALL"
+      ]
+    },
+    {
+      "name": "Профиль под стекло",
+      "code": "G",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль TETRIX"
+      ]
+    },
+    {
+      "name": "Прямой",
+      "code": "M",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль LACONIC",
+        "Рамка LACONIC",
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "Скрытый",
+      "code": "S",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Профиль LACONIC",
+        "Рамка LACONIC",
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "Центральный",
+      "code": "C",
+      "articleArea": 1,
+      "applicableProducts": [
+        "Кронштейн",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Стойка TETRIX WALL"
+      ]
+    }
+  ],
+  "parametrDirectory": [
+    {
+      "name": "0 пет.",
+      "code": "H0",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль ELEGANT",
+        "Профиль ESTET",
+        "Профиль FRAME",
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль LACONIC",
+        "Профиль SHINE",
+        "Профиль TETRIX",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка LACONIC",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад LACONIC",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE",
+        "Фурнитура"
+      ]
+    },
+    {
+      "name": "1 пет.",
+      "code": "H1",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль ELEGANT",
+        "Профиль ESTET",
+        "Профиль FRAME",
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль LACONIC",
+        "Профиль SHINE",
+        "Профиль TETRIX",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка LACONIC",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад LACONIC",
+        "Фасад PERFECTA",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "10 пет.",
+      "code": "H10",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль ELEGANT",
+        "Профиль ESTET",
+        "Профиль FRAME",
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль LACONIC",
+        "Профиль SHINE",
+        "Профиль TETRIX",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка LACONIC",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад LACONIC",
+        "Фасад PERFECTA",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "2 пет.",
+      "code": "H2",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль ELEGANT",
+        "Профиль ESTET",
+        "Профиль FRAME",
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Профиль LACONIC",
+        "Профиль SHINE",
+        "Профиль TETRIX",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка LACONIC",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад LACONIC",
+        "Фасад PERFECTA",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "3 пет.",
+      "code": "H3",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль ELEGANT",
+        "Профиль ESTET",
+        "Профиль FRAME",
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль LACONIC",
+        "Профиль SHINE",
+        "Профиль TETRIX",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка LACONIC",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад LACONIC",
+        "Фасад PERFECTA",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "4 пет.",
+      "code": "H4",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль ELEGANT",
+        "Профиль ESTET",
+        "Профиль FRAME",
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль LACONIC",
+        "Профиль SHINE",
+        "Профиль TETRIX",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка LACONIC",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад LACONIC",
+        "Фасад PERFECTA",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "5 пет.",
+      "code": "H5",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль ELEGANT",
+        "Профиль ESTET",
+        "Профиль FRAME",
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль LACONIC",
+        "Профиль SHINE",
+        "Профиль TETRIX",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка LACONIC",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад LACONIC",
+        "Фасад PERFECTA",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "6 пет.",
+      "code": "H6",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль ELEGANT",
+        "Профиль ESTET",
+        "Профиль FRAME",
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль LACONIC",
+        "Профиль SHINE",
+        "Профиль TETRIX",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка LACONIC",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад LACONIC",
+        "Фасад PERFECTA",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "7 пет.",
+      "code": "H7",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль ELEGANT",
+        "Профиль ESTET",
+        "Профиль FRAME",
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль LACONIC",
+        "Профиль SHINE",
+        "Профиль TETRIX",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка LACONIC",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад LACONIC",
+        "Фасад PERFECTA",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "8 пет.",
+      "code": "H8",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль ELEGANT",
+        "Профиль ESTET",
+        "Профиль FRAME",
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль LACONIC",
+        "Профиль SHINE",
+        "Профиль TETRIX",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка LACONIC",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад LACONIC",
+        "Фасад PERFECTA",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "9 пет.",
+      "code": "H9",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль ELEGANT",
+        "Профиль ESTET",
+        "Профиль FRAME",
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Профиль JAZZ",
+        "Профиль JAZZ WOOD",
+        "Профиль LACONIC",
+        "Профиль SHINE",
+        "Профиль TETRIX",
+        "Рамка ELEGANT",
+        "Рамка ESTET",
+        "Рамка GLIX",
+        "Рамка JAZZ",
+        "Рамка LACONIC",
+        "Рамка PERFECTA",
+        "Рамка SECRET",
+        "Рамка SHINE",
+        "Рамка TETRIX",
+        "Стойка TETRIX",
+        "Фасад ELEGANT",
+        "Фасад ESTET",
+        "Фасад FRAME",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD",
+        "Фасад JAZZ",
+        "Фасад LACONIC",
+        "Фасад PERFECTA",
+        "Фасад SCHUCO",
+        "Фасад SECRET",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "Без подсветки",
+      "code": "",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Полка LUMIX",
+        "Полка SHELF",
+        "Рамка LUMIX",
+        "Рамка SHELF"
+      ]
+    },
+    {
+      "name": "Есть BR",
+      "code": "BR",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Ящик со стеклом MIXBOX",
+        "Ящик MIXBOX"
+      ]
+    },
+    {
+      "name": "Нет",
+      "code": "",
+      "articleArea": 1,
+      "applicableProducts": []
+    },
+    {
+      "name": "Нет BR",
+      "code": "",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Ящик со стеклом MIXBOX",
+        "Ящик MIXBOX"
+      ]
+    },
+    {
+      "name": "Подсветка натуральная 4000",
+      "code": "LEDN",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Полка LUMIX",
+        "Полка SHELF",
+        "Рамка LUMIX",
+        "Рамка SHELF"
+      ]
+    },
+    {
+      "name": "Подсветка тёплая 3000",
+      "code": "LEDW",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Полка LUMIX",
+        "Полка SHELF",
+        "Рамка LUMIX",
+        "Рамка SHELF"
+      ]
+    }
+  ],
+  "variantDirectory": [
+    {
+      "name": "0 пер.",
+      "code": "P0",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка TETRIX",
+        "Стойка TETRIX"
+      ]
+    },
+    {
+      "name": "1 - без вставки; 2 - алюкобонд",
+      "code": "10/2A",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "1 - без вставки; 2 - любой",
+      "code": "10/2X",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "1 - без вставки; 2 - ХДФ",
+      "code": "10/2H",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "1 - кожа без прошивки; 2 - алюкобонд",
+      "code": "1L/2A",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "1 - кожа без прошивки; 2 - кожа без прошивки",
+      "code": "1L/2L",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "1 - кожа без прошивки; 2 - ХДФ",
+      "code": "1L/2H",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "1 - кожа с прошивкой; 2 - алюкобонд",
+      "code": "1LP/2A",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "1 - кожа с прошивкой; 2 - кожа без прошивки",
+      "code": "1LP/2L",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "1 - кожа с прошивкой; 2 - ХДФ",
+      "code": "1LP/2H",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Фасад LACONIC"
+      ]
+    },
+    {
+      "name": "1 - ткань; 2 - алюкобонд",
+      "code": "1L/2A",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Фасад LACONIC",
+        "Фасад PERFECTA"
+      ]
+    },
+    {
+      "name": "1 - ткань; 2 - ткань",
+      "code": "1Т/2T",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Фасад LACONIC",
+        "Фасад PERFECTA"
+      ]
+    },
+    {
+      "name": "1 - ткань; 2 - ХДФ",
+      "code": "1Т/2Н",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Фасад LACONIC",
+        "Фасад PERFECTA"
+      ]
+    },
+    {
+      "name": "1 пер.",
+      "code": "P1",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка TETRIX",
+        "Стойка TETRIX"
+      ]
+    },
+    {
+      "name": "2 пер.",
+      "code": "P2",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка TETRIX",
+        "Стойка TETRIX"
+      ]
+    },
+    {
+      "name": "3 пер.",
+      "code": "P3",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка TETRIX",
+        "Стойка TETRIX"
+      ]
+    },
+    {
+      "name": "4 пер.",
+      "code": "P4",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка TETRIX",
+        "Стойка TETRIX"
+      ]
+    },
+    {
+      "name": "5 пер.",
+      "code": "P5",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка TETRIX",
+        "Стойка TETRIX"
+      ]
+    },
+    {
+      "name": "6 пер.",
+      "code": "P6",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка TETRIX",
+        "Стойка TETRIX"
+      ]
+    },
+    {
+      "name": "7 пер.",
+      "code": "P7",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка TETRIX",
+        "Стойка TETRIX"
+      ]
+    },
+    {
+      "name": "8 пер.",
+      "code": "P8",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка TETRIX",
+        "Стойка TETRIX"
+      ]
+    },
+    {
+      "name": "9 пер.",
+      "code": "P9",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка TETRIX",
+        "Стойка TETRIX"
+      ]
+    },
+    {
+      "name": "Без бортика под вклейку",
+      "code": "BB",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль PERFECTA",
+        "Рамка PERFECTA",
+        "Фасад PERFECTA"
+      ]
+    },
+    {
+      "name": "Глубокая",
+      "code": "G",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Рамка GLIX",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD"
+      ]
+    },
+    {
+      "name": "Есть вешало",
+      "code": "V",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Полка LUMIX",
+        "Полка SHELF",
+        "Рамка LUMIX",
+        "Рамка SHELF"
+      ]
+    },
+    {
+      "name": "Запил под 45°",
+      "code": "45",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка SHINE",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "Запил под 90°",
+      "code": "90",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Рамка SHINE",
+        "Фасад SHINE"
+      ]
+    },
+    {
+      "name": "Нет",
+      "code": "",
+      "articleArea": null,
+      "applicableProducts": []
+    },
+    {
+      "name": "Нет вешала",
+      "code": "",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Полка LUMIX",
+        "Полка SHELF",
+        "Рамка LUMIX",
+        "Рамка SHELF"
+      ]
+    },
+    {
+      "name": "Под вставку",
+      "code": "PV",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль PERFECTA",
+        "Рамка PERFECTA",
+        "Фасад PERFECTA"
+      ]
+    },
+    {
+      "name": "С бортиком под вклейку",
+      "code": "SB",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль PERFECTA",
+        "Рамка PERFECTA",
+        "Фасад PERFECTA"
+      ]
+    },
+    {
+      "name": "Стандартная",
+      "code": "S",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Рамка GLIX",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD"
+      ]
+    },
+    {
+      "name": "Угловая",
+      "code": "U",
+      "articleArea": 2,
+      "applicableProducts": [
+        "Профиль GLIX",
+        "Профиль GLIX WOOD",
+        "Рамка GLIX",
+        "Фасад GLIX",
+        "Фасад GLIX WOOD"
+      ]
+    }
+  ],
+  "cvetDirectory": [
+    {
+      "name": "Анодированное Золото",
+      "code": "AG"
+    },
+    {
+      "name": "Анодированный жемчуг",
+      "code": "AP"
+    },
+    {
+      "name": "Анодированый",
+      "code": "An"
+    },
+    {
+      "name": "Анодировка Серебро",
+      "code": "АS"
+    },
+    {
+      "name": "Анодировка Чёрный",
+      "code": "AB"
+    },
+    {
+      "name": "Анодировка Шампань",
+      "code": "AC"
+    },
+    {
+      "name": "Антрацит",
+      "code": "A"
+    },
+    {
+      "name": "Белый",
+      "code": "W"
+    },
+    {
+      "name": "Бронза",
+      "code": "M"
+    },
+    {
+      "name": "ДСП | Цвет не указывается",
+      "code": "-"
+    },
+    {
+      "name": "Золото",
+      "code": "G"
+    },
+    {
+      "name": "Инокс",
+      "code": "iN"
+    },
+    {
+      "name": "Итальянское золото",
+      "code": "IG"
+    },
+    {
+      "name": "Коньяк",
+      "code": "Cg"
+    },
+    {
+      "name": "Латунь",
+      "code": "L"
+    },
+    {
+      "name": "Медь",
+      "code": "Cu"
+    },
+    {
+      "name": "Метамерийный антрацит",
+      "code": "MA"
+    },
+    {
+      "name": "Мокко",
+      "code": "Mк"
+    },
+    {
+      "name": "Нерж.сталь",
+      "code": "NS"
+    },
+    {
+      "name": "Неро",
+      "code": "Ne"
+    },
+    {
+      "name": "Никель",
+      "code": "Ni"
+    },
+    {
+      "name": "Оливковый светлый",
+      "code": "OL"
+    },
+    {
+      "name": "Оливковый темный",
+      "code": "OD"
+    },
+    {
+      "name": "Под покраску из существующей палитры",
+      "code": "PP"
+    },
+    {
+      "name": "Розовое золото",
+      "code": "RG"
+    },
+    {
+      "name": "Серебро",
+      "code": "S"
+    },
+    {
+      "name": "Сырой",
+      "code": "NC"
+    },
+    {
+      "name": "Устричный",
+      "code": "U"
+    },
+    {
+      "name": "Флорентийская Бронза",
+      "code": "FM"
+    },
+    {
+      "name": "Чёрный",
+      "code": "B"
+    },
+    {
+      "name": "Шампань",
+      "code": "C"
+    },
+    {
+      "name": "Шоколад",
+      "code": "K"
+    },
+    {
+      "name": "RAL",
+      "code": "RAL"
+    }
+  ],
+  "vstavkaDirectory": [
+    {
+      "name": "Артиста"
+    },
+    {
+      "name": "Верона"
+    },
+    {
+      "name": "Дарк Грей"
+    },
+    {
+      "name": "Зеркало Бронза"
+    },
+    {
+      "name": "Зеркало осветлённое"
+    },
+    {
+      "name": "Зеркало Серебро"
+    },
+    {
+      "name": "Кафедрал"
+    },
+    {
+      "name": "Мателюкс Бронза"
+    },
+    {
+      "name": "Мателюкс Грей"
+    },
+    {
+      "name": "Мателюкс Кристалвижн"
+    },
+    {
+      "name": "Нет"
+    },
+    {
+      "name": "Обычное (флоат)"
+    },
+    {
+      "name": "Оптивайт"
+    },
+    {
+      "name": "Планибель Бронза"
+    },
+    {
+      "name": "Планибель Грей"
+    },
+    {
+      "name": "Риббет Гласс"
+    },
+    {
+      "name": "Стопсол Грей"
+    },
+    {
+      "name": "Стопсол Клир"
+    },
+    {
+      "name": "Шелби бесцветное"
+    },
+    {
+      "name": "Шелби бронза"
+    },
+    {
+      "name": "Шелби серое"
+    }
+  ],
+  "obrabotkaVstavkiDirectory": [
+    {
+      "name": "Еврокромка",
+      "code": "EK"
+    },
+    {
+      "name": "Закалка",
+      "code": "ZK"
+    },
+    {
+      "name": "УФ печать",
+      "code": "UF"
+    },
+    {
+      "name": "Шлифовка",
+      "code": "SHL"
+    }
+  ],
+  "specialCases": [
+    {
+      "rule": "GLIX + Параметр \"0 пет.\"",
+      "description": "Если Изделие.Профиль содержит \"GLIX\" и выбранный Параметр = \"0 пет.\" — Вариант становится НЕ обязательным, даже если для этого изделия Вариант в целом отмечен как обязательный."
+    }
+  ]
+}
