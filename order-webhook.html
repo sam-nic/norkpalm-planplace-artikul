@@ -1,0 +1,192 @@
+<title>Передача заказа: PlanPlace → Планфикс</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --ink:#1b2430; --mute:#5c6870; --paper:#f4f6f5; --panel:#ffffff; --panel-2:#eaeeec;
+  --line:#ccd4d1; --line-strong:#a9b2af;
+  --seg1:#bb5527; --seg1-tint:#f6e6dd; --seg1-line:#e1b294;
+  --seg2:#1b6e67; --seg2-tint:#dfeeec; --seg2-line:#9dc6c0;
+  --area3:#8b9599; --area3-tint:#eceeef;
+  --shadow:0 1px 2px rgba(20,25,25,.04), 0 8px 24px rgba(20,25,25,.06);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ink:#e7ebe9; --mute:#98a3a8; --paper:#12161a; --panel:#1a2024; --panel-2:#20272b;
+    --line:#323b40; --line-strong:#454f54;
+    --seg1:#e0824f; --seg1-tint:#3a2a1f; --seg1-line:#6b4a30;
+    --seg2:#4fb3a8; --seg2-tint:#193632; --seg2-line:#2f5b54;
+    --area3:#7d8a8f; --area3-tint:#232a2d;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#e7ebe9; --mute:#98a3a8; --paper:#12161a; --panel:#1a2024; --panel-2:#20272b;
+  --line:#323b40; --line-strong:#454f54;
+  --seg1:#e0824f; --seg1-tint:#3a2a1f; --seg1-line:#6b4a30;
+  --seg2:#4fb3a8; --seg2-tint:#193632; --seg2-line:#2f5b54;
+  --area3:#7d8a8f; --area3-tint:#232a2d;
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans',system-ui,sans-serif;
+     -webkit-font-smoothing:antialiased}
+code, .mono{font-family:'IBM Plex Mono',ui-monospace,monospace}
+.wrap{max-width:860px;margin:0 auto;padding:56px 24px 96px}
+h1,h2,h3{text-wrap:balance;font-weight:600;letter-spacing:-.01em}
+p{line-height:1.65;color:var(--ink)}
+.mute{color:var(--mute)}
+a{color:var(--seg2)}
+
+/* ---- header ---- */
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:600;letter-spacing:.09em;
+         text-transform:uppercase;color:var(--mute);margin:0 0 14px}
+h1{font-size:34px;margin:0 0 10px;line-height:1.15}
+.lede{font-size:16px;color:var(--mute);max-width:640px;margin:0 0 8px;line-height:1.6}
+.lede .hl{color:var(--seg1);font-weight:600}
+
+/* ---- sections ---- */
+section{margin-top:56px}
+.sec-head{display:flex;align-items:baseline;gap:12px;margin-bottom:18px}
+.sec-num{font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;color:var(--mute);flex:none}
+.sec-head h2{font-size:20px;margin:0}
+section > p{max-width:640px}
+
+/* ---- example table ---- */
+.tblwrap{overflow-x:auto;margin:20px 0;border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;background:var(--panel);font-size:13px}
+th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--mute);
+   padding:10px 14px;background:var(--panel-2);border-bottom:1px solid var(--line);white-space:nowrap;font-weight:600}
+td{padding:10px 14px;border-bottom:1px solid var(--line);white-space:nowrap;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:none}
+td.mono{font-family:'IBM Plex Mono',monospace}
+td.req{color:var(--seg1);font-weight:600}
+td.notreq{color:var(--mute)}
+td.cell-wrap{white-space:normal}
+
+/* ---- code block ---- */
+.codeblock{background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:18px 20px;
+           overflow-x:auto;margin:16px 0;box-shadow:var(--shadow)}
+.codeblock pre{margin:0;font-family:'IBM Plex Mono',monospace;font-size:12.5px;line-height:1.65;color:var(--ink)}
+.codeblock .k{color:var(--seg2)}
+.codeblock .s{color:var(--seg1)}
+.codeblock .mut{color:var(--mute)}
+
+/* ---- footer files ---- */
+.files{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:18px}
+.file{display:flex;gap:12px;align-items:flex-start;padding:16px;border:1px solid var(--line);border-radius:10px;
+      background:var(--panel);text-decoration:none;color:inherit;transition:border-color .12s,box-shadow .12s}
+.file:hover{border-color:var(--line-strong);box-shadow:var(--shadow)}
+.file svg{flex:none;color:var(--mute);margin-top:2px}
+.file .fn{font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;color:var(--seg2)}
+.file .fd{font-size:12.5px;color:var(--mute);margin-top:3px;line-height:1.4}
+
+hr.rule{border:none;border-top:1px solid var(--line);margin:56px 0 0}
+footer{margin-top:24px;padding-top:0;font-size:12px;color:var(--mute)}
+</style>
+
+<div class="wrap">
+
+  <div class="eyebrow">PlanPlace ↔ Планфикс · техническая спецификация</div>
+  <h1>Передача заказа: PlanPlace → Планфикс</h1>
+  <p class="lede">Формат вебхука, которым PlanPlace передаёт заказ в Планфикс, и формат ответа,
+  который Планфикс возвращает обратно. Формат самой позиции заказа и формула Артикула — отдельным
+  документом, см. <a href="https://claude.ai/code/artifact/5ab1db19-0ee2-4090-a6e4-50b564b8775f" target="_blank" rel="noopener">«Как собирается Артикул»</a>.</p>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">§1</span><h2>Запрос</h2></div>
+    <p>Заказ передаётся одним вебхуком — JSON-объектом с двумя полями: <b class="mono">contact</b>
+    (кто разместил заказ) и <b class="mono">items</b> — массив изделий, ровно по одному объекту
+    на строку заказа.</p>
+
+    <div class="tblwrap">
+      <table>
+        <thead><tr><th>Поле</th><th>Обязательно</th><th>Назначение</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">contact.firstName</td><td class="req">да</td><td>Имя контактного лица, разместившего заказ.</td></tr>
+          <tr><td class="mono">contact.lastName</td><td class="req">да</td><td>Фамилия контактного лица.</td></tr>
+          <tr><td class="mono">contact.email</td><td class="req">да</td><td>Email — по нему заказчик идентифицируется в Планфиксе.</td></tr>
+          <tr><td class="mono">items</td><td class="req">да</td><td>Массив позиций заказа — формат одной позиции см. в «Как собирается Артикул».</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="mute" style="font-size:13px;margin-bottom:0">Пример (полностью в приложенном
+    <span class="mono">request-example.json</span>):</p>
+    <div class="codeblock"><pre>{
+  <span class="k">"contact"</span>: {
+    <span class="k">"firstName"</span>: <span class="s">"Иван"</span>,
+    <span class="k">"lastName"</span>: <span class="s">"Иванов"</span>,
+    <span class="k">"email"</span>: <span class="s">"ivanov@example.com"</span>
+  },
+  <span class="k">"items"</span>: [
+    {
+      <span class="k">"product"</span>: <span class="s">"Фасад GLIX"</span>,
+      <span class="k">"profileType"</span>: <span class="s">"Левый"</span>,
+      <span class="k">"parameter"</span>: <span class="s">"2 пет."</span>,
+      <span class="k">"variant"</span>: <span class="s">"Стандартная"</span>,
+      <span class="k">"insert"</span>: <span class="s">"Артиста"</span>,
+      <span class="k">"insertTreatment"</span>: [],
+      <span class="k">"standard"</span>: <span class="s">"Да"</span>,
+      <span class="k">"assembly"</span>: <span class="s">"Нет"</span>,
+      <span class="k">"color"</span>: <span class="s">"RAL"</span>,
+      <span class="k">"length"</span>: 2400,
+      <span class="k">"width"</span>: 600,
+      <span class="k">"quantity"</span>: 2,
+      <span class="k">"note"</span>: <span class="mut">null</span>
+    }
+  ]
+}</pre></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">§2</span><h2>Ответ</h2></div>
+    <p>На вебхук Планфикс отвечает синхронно — статусом обработки, id созданного объекта заказа
+    и, опционально, прямой ссылкой на этот заказ в личном кабинете дилера. Детализации причины
+    ошибки нет — на стороне Планфикса пока нет её разбивки по кодам/причинам, поэтому
+    <span class="mono">status</span> сообщает только сам факт «ок» или «не ок».</p>
+
+    <div class="tblwrap">
+      <table>
+        <thead><tr><th>Поле</th><th>Обязательно</th><th>Назначение</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">status</td><td class="req">да</td><td class="cell-wrap"><span class="mono">"ok"</span> или <span class="mono">"error"</span>.</td></tr>
+          <tr><td class="mono">taskId</td><td class="req">да, если ok</td><td class="cell-wrap">Id созданного в Планфиксе объекта заказа.</td></tr>
+          <tr><td class="mono">dealerCabinetUrl</td><td class="notreq">нет</td><td class="cell-wrap">Ссылка на заказ в ЛК дилера — может отсутствовать даже при status = "ok".</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="mute" style="font-size:13px;margin-bottom:0">Пример успешного ответа (полностью
+    в приложенном <span class="mono">response-example.json</span>):</p>
+    <div class="codeblock"><pre>{
+  <span class="k">"status"</span>: <span class="s">"ok"</span>,
+  <span class="k">"taskId"</span>: 508783,
+  <span class="k">"dealerCabinetUrl"</span>: <span class="s">"https://norkpalm.example/cabinet/orders/508783"</span>
+}</pre></div>
+  </section>
+
+  <hr class="rule">
+  <section style="margin-top:32px">
+    <div class="sec-head"><h2>Приложения</h2></div>
+    <div class="files">
+      <a class="file" href="https://raw.githubusercontent.com/sam-nic/norkpalm-planplace-artikul/main/request-schema.json" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M14 3v5h5M6 3h8l5 5v13H6V3z"/></svg>
+        <div><div class="fn">request-schema.json</div><div class="fd">JSON Schema вебхука-запроса — contact + массив items.</div></div>
+      </a>
+      <a class="file" href="https://raw.githubusercontent.com/sam-nic/norkpalm-planplace-artikul/main/request-example.json" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M14 3v5h5M6 3h8l5 5v13H6V3z"/></svg>
+        <div><div class="fn">request-example.json</div><div class="fd">Рабочий пример заказа с двумя позициями.</div></div>
+      </a>
+      <a class="file" href="https://raw.githubusercontent.com/sam-nic/norkpalm-planplace-artikul/main/response-schema.json" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M14 3v5h5M6 3h8l5 5v13H6V3z"/></svg>
+        <div><div class="fn">response-schema.json</div><div class="fd">JSON Schema ответа — статус, id, ссылка в ЛК дилера.</div></div>
+      </a>
+      <a class="file" href="https://raw.githubusercontent.com/sam-nic/norkpalm-planplace-artikul/main/response-example.json" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M14 3v5h5M6 3h8l5 5v13H6V3z"/></svg>
+        <div><div class="fn">response-example.json</div><div class="fd">Пример успешного ответа.</div></div>
+      </a>
+    </div>
+  </section>
+
+  <footer>Norkpalm × PlanPlace · вебхук заказа</footer>
+</div>
